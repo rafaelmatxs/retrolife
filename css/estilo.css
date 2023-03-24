@@ -1,0 +1,172 @@
+/* Geral
+=========*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: lightskyblue url(../imagens/ruidoretro.png);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+ /* Barra de navegação 
+ ======================*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffe81b;
+}
+
+.btn-outline-light:hover {
+	color: #ffe81b;
+	background-color: transparent;
+	border-color: #ffe81b;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+/* barra de navegação lateral esquerda 
+=======================================*/
+
+#barra-lateral {
+	width: 240px;
+	height: 1200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding-top: 66px;
+	padding-bottom: 100px;
+	position: absolute;
+}
+
+#barra-lateral ul li a {
+	display: block;
+	height: 50px;
+	line-height: 33px;
+	padding-left: 20px;
+	color: #333;
+	text-decoration: none;
+}
+
+#barra-lateral ul li a:hover {
+	color: black;
+	background: #ffe81b;
+}
+
+
+
+/* barra de navegação lateral esquerda 
+=======================================*/
+
+#barra-lateral-direita {
+	width: 240px;
+	height: 1200px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding-top: 66px;
+	padding-bottom: 100px;
+	position: absolute;
+}
+
+
+
+/* carousel 
+============*/
+
+.sombracarousel {
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.legendaslide {
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
+	padding: 10px;
+}
+
+
+
+/* rodapé 
+==========*/
+
+footer {
+	background: #ffe81b;
+	padding: 30px;
+	/*
+	border-top: 20px solid red;
+	border-bottom: 20px solid #007bff;
+	*/
+	position: relative;
+}
+
+footer .navbar-nav a {
+	color:#343a40;
+}
+
+footer .navbar-nav a:hover {
+	color: darkred;
+}
+
+.logo-custom {
+	margin-top: 62px;
+}
+
+
+
+/* media queries 
+-----------------*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.btn {
+		width: 100%;
+	}
+
+	#btn-entrar {
+		margin-bottom: 15px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.btn {
+		width: 100%;
+	}
+
+	#btn-entrar {
+		margin-bottom: 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#btn-custom {
+		display: block;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#btn-custom {
+		display: block;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#btn-custom {
+		display: block;
+	}
+}
